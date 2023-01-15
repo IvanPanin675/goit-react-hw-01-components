@@ -37,9 +37,11 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
 export default Profile;
 
 Profile.defaultProps = {
-    avatar: "https://cdn.pixabay.com/photo/2023/01/09/22/05/gorilla-7708352_960_720.jpg",
     username: "User Name",
-    tag: "goooogle@gmail.com"
+    tag: "goooogle@gmail.com",
+    location: "",
+    avatar: "https://cdn.pixabay.com/photo/2023/01/09/22/05/gorilla-7708352_960_720.jpg", 
+    stats: {},
 }
 
 Profile.propTypes = {
