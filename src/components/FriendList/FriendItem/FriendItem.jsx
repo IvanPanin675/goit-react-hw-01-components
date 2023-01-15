@@ -33,5 +33,5 @@ FriendItem.propTypes = {
     name: PropTypes.string.isRequired,
     isOnline: PropTypes.bool.isRequired,
     avatar: PropTypes.string.isRequired,
-  }),
+  }).isRequired,
 };
